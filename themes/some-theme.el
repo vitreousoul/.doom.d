@@ -37,7 +37,7 @@ Can be an integer to determine the exact padding."
   ;; name        default   256           16
   ((bg         '("#232523" "black"       "black"  ))
    ;; (fg         '("#bbc2cf" "#bfbfbf"     "brightwhite"  ))
-   (fg         '("#b2c0b0" "#f9f0c1"     "brightwhite"  ))
+   (fg         '("#b2b9b0" "#f9f0c1"     "brightwhite"  ))
 
    ;; These are off-color variants of bg/fg, used primarily for `solaire-mode',
    ;; but can also be useful as a basis for subtle highlights (e.g. for hl-line
@@ -68,6 +68,9 @@ Can be an integer to determine the exact padding."
    (blue       '("#51afef" "#51afef" "brightblue"   ))
    (dark-blue  '("#2257A0" "#2257A0" "blue"         ))
    (magenta    '("#c678dd" "#c678dd" "brightmagenta"))
+   ;; (pale-blue  '("#99ceb0"))
+   ;; (pale-blue  '("#abc4d0"))
+   (pale-blue  '("#bebecf"))
    (violet     '("#a9a1e1" "#a9a1e1" "magenta"      ))
    (cyan       '("#46D9FF" "#46D9FF" "brightcyan"   ))
    (dark-cyan  '("#5699AF" "#5699AF" "cyan"         ))
@@ -76,7 +79,7 @@ Can be an integer to determine the exact padding."
    ;; These *must* be included in every doom themes, or your theme will throw an
    ;; error, as they are used in the base theme defined in doom-themes-base.
    (highlight      green)
-   (vertical-bar   (doom-darken base1 0.1))
+   (vertical-bar   base5)
    (selection      dark-blue)
    (builtin        fg)
    (comments       base6)
@@ -86,7 +89,7 @@ Can be an integer to determine the exact padding."
    (keywords       yellow)
    (methods        fg)
    (operators      fg)
-   (type           fg)
+   (type           pale-blue)
    (strings        green)
    (variables      fg)
    (numbers        orange)
