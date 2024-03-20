@@ -70,7 +70,7 @@ Can be an integer to determine the exact padding."
    (magenta    '("#c678dd" "#c678dd" "brightmagenta"))
    ;; (pale-blue  '("#99ceb0"))
    ;; (pale-blue  '("#abc4d0"))
-   (pale-blue  '("#bebecf"))
+   (pale-blue  '("#bcbccd"))
    (violet     '("#a9a1e1" "#a9a1e1" "magenta"      ))
    (cyan       '("#46D9FF" "#46D9FF" "brightcyan"   ))
    (dark-cyan  '("#5699AF" "#5699AF" "cyan"         ))

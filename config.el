@@ -82,3 +82,16 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+;; Turn off option modifier for right option key. This allows typing accented
+;; characters on a Mac.
+(setq mac-right-option-modifier 'none)
+
+;; Turn off company mode. The only way I could find to prevent autocompletion
+;; popups editing C files.
+(setq company-global-modes nil)
+
+;; Turning this off to reduce visual noise in C files...
+(setq flycheck-global-modes nil)
+
+(add-hook 'c-mode-hook #'turn-off-smartparens-mode)
