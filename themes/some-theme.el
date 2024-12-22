@@ -37,7 +37,7 @@ Can be an integer to determine the exact padding."
   ;; name        default   256           16
   ((bg         '("#232523" "black"       "black"  ))
    ;; (fg         '("#bbc2cf" "#bfbfbf"     "brightwhite"  ))
-   (fg         '("#b2b9b0" "#f9f0c1"     "brightwhite"  ))
+   (fg         '("#a4aba2" "#f9f0c1"     "brightwhite"  ))
 
    ;; These are off-color variants of bg/fg, used primarily for `solaire-mode',
    ;; but can also be useful as a basis for subtle highlights (e.g. for hl-line
@@ -70,7 +70,7 @@ Can be an integer to determine the exact padding."
    (magenta    '("#c678dd" "#c678dd" "brightmagenta"))
    ;; (pale-blue  '("#99ceb0"))
    ;; (pale-blue  '("#abc4d0"))
-   (pale-blue  '("#bcbccd"))
+   (pale-blue  '("#babbcd"))
    (violet     '("#a9a1e1" "#a9a1e1" "magenta"      ))
    (cyan       '("#46D9FF" "#46D9FF" "brightcyan"   ))
    (dark-cyan  '("#5699AF" "#5699AF" "cyan"         ))
